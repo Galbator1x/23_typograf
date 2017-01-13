@@ -1,11 +1,14 @@
 # Typograf Service
 
 This is typograph with the web interface. Typograph - is a tool of the russian text preparation
-for publication on the Web. He takes over the most routine tasks, such as: – replacement
-quotes ' and " to « » - in the right places to replace hyphens with dashes - replacing
-dashes for a short dash in phone numbers - binding numbers followed by the words non-breaking
-hyphen - removing extra spaces and line breaks - binding unions and any words of 1-2 symbol
-followed by the words.
+for publication on the Web. He takes over the most routine tasks, such as:
+
+- replacement quotes ' and " to « » 
+- in the right places to replace hyphens with dashes 
+- replacing dashes for a short dash in phone numbers 
+- binding numbers followed by the words non-breaking hyphen 
+- removing extra spaces and line breaks 
+- binding unions and any words of 1-2 symbol followed by the words.
 
 ## Installation
 
