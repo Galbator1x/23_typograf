@@ -34,15 +34,5 @@ def typograph(text):
     for pattern, repl in patterns:
         text = re.sub(pattern, repl, text, flags=re.MULTILINE)
     text = replace_hyphen_on_shortdash_in_phone_number(text)
-    # print(text)
     return text
 
-
-if __name__ == "__main__":
-    s1 = """f"sdf" 'sdf'f"""
-    s2 = '- Я -е-б л - л... - П? - Н т-.- ,-'
-    s3 = '123-4567f 34f (243)-234-2342 +1-(800)-545-2468 (234)'
-    s4 = '4 s  5-j  2jg4_df  g 5  l'
-    s5 = """ \n\n\n    \n- Я тебя люблю... - Правда? \n\n   - На самом деле нет."""
-    s6 = 'q we\n\n\nr tyu'
-    typograph(s6)
