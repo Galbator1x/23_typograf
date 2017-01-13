@@ -27,9 +27,9 @@
     </nav>
 
     <div class="container">
-      <form method="POST">
+      <form method="POST" >
         <div class="form-group">
-          <textarea name="text" class="form-control" rows="10" placeholder="Введите текст" autofocus></textarea>
+          <textarea name="text" class="form-control" rows="10" placeholder="Введите текст" autofocus>{{ input_text  }}</textarea>
         </div>
 
         <div class="form-group">
@@ -37,7 +37,7 @@
         </div>
 
         <div class="form-group">
-          <textarea class="form-control" rows="10" placeholder="Здесь будет результат" disabled="disabled"></textarea>
+          <textarea class="form-control" rows="10" placeholder="Здесь будет результат" disabled="disabled">{{ formatted_text }}</textarea>
         </div>
       </form>
     </div><!-- /.container -->
