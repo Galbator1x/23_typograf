@@ -3,6 +3,7 @@ from flask import Flask, render_template, request
 from typograph import typograph
 
 app = Flask(__name__)
+app.config.from_object('config')
 
 
 @app.route('/', methods=['POST', 'GET'])
